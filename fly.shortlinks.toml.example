@@ -5,7 +5,7 @@ kill_timeout = 5
 processes = []
 
 [build]
-  image = "us-east4-docker.pkg.dev/assemble-services/apps/link-shortener:latest"
+  image = "us-west1-docker.pkg.dev/spoke-407503/link-shortener:latest"
 
 [env]
 

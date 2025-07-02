@@ -8,8 +8,8 @@
     "url": "https://benjaminchrobot.com"
   },
   "license": "MIT",
-  "repository": "github:politics-rewired/fly-shortener",
-  "bugs": "https://github.com/politics-rewired/fly-shortener/issues",
+  "repository": "github:with-the-ranks/fly-shortener",
+  "bugs": "https://github.com/with-the-ranks/fly-shortener/issues",
   "scripts": {
     "start": "ts-node src/server.ts",
     "build": "tsc",
