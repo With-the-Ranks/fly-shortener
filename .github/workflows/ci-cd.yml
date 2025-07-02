@@ -111,9 +111,9 @@ jobs:
         with:
           push: true
           tags: |
-            us-west1-docker.pkg.dev/spoke-407503/link-shortener:latest
-            us-west1-docker.pkg.dev/spoke-407503/link-shortener:${{ steps.image-tags.outputs.version }}
-            us-west1-docker.pkg.dev/spoke-407503/link-shortener:${{ steps.image-tags.outputs.sha }}
+            us-west1-docker.pkg.dev/spoke-407503/link-shortener/core:latest
+            us-west1-docker.pkg.dev/spoke-407503/link-shortener/core:${{ steps.image-tags.outputs.version }}
+            us-west1-docker.pkg.dev/spoke-407503/link-shortener/core:${{ steps.image-tags.outputs.sha }}
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,dest=/tmp/.buildx-cache-new
 
