@@ -12,7 +12,7 @@ jobs:
       BODY_PATH: release-body.txt
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Set output
         id: vars
         run: echo ::set-output name=tag::${GITHUB_REF#refs/tags/} && echo ::set-output name=version::${GITHUB_REF#refs/tags/v}
